@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Esto es un comentario en HTML -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Área Rectangulo</title>
+</head>
+
+<body>
+    <script>
+        let ancho;
+        ancho =prompt(parseInt("Ancho del rectangulo"));
+        let alto;
+        alto =prompt(parseInt("Alto del rectangulo"));
+        let X;
+        X = ancho*alto
+
+        console.log("El area del rectangulo es de " + X + "m2.")
+    </script>
+</body>
+
+</html>
